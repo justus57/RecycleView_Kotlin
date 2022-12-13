@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Iphone_type">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="585dp">
+
+                <CheckBox
+                    android:id="@+id/checkBox8"
+                    android:layout_width="26dp"
+                    android:layout_height="45dp"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginBottom="256dp"
+                    android:button="@drawable/selector"
+
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:text="Please choose the Model"
+                    android:textColor="#11117A"
+                    android:textSize="30dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.444"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="52dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="26dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="33dp"
+                    android:layout_marginBottom="24dp"
+
+                    android:button="@drawable/selector"
+                    app:layout_constraintBottom_toTopOf="@+id/imageView7"
+                    app:layout_constraintEnd_toStartOf="@+id/textViewIp14Pro"
+                    app:layout_constraintStart_toEndOf="@+id/imageView5" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="79dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="Find Store"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.373"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="119dp"
+                    android:layout_height="171dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="272dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5"
+                    app:srcCompat="@drawable/iphone_14" />
+
+                <TextView
+                    android:id="@+id/textViewIp14"
+                    android:layout_width="88dp"
+                    android:layout_height="22dp"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginEnd="297dp"
+                    android:layout_marginBottom="19dp"
+                    android:text="Iphone 14"
+                    android:textColor="#0E0C0C"
+                    android:textSize="16sp"
+                    android:clickable="true"
+                    app:layout_constraintBottom_toTopOf="@+id/imageView7"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.27"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView5"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="179dp"
+                    android:layout_height="149dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginStart="67dp"
+                    android:layout_marginTop="31dp"
+                    android:layout_marginEnd="26dp"
+                    android:layout_marginBottom="9dp"
+                    app:layout_constraintBottom_toTopOf="@+id/textView8"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageView5"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5"
+                    app:srcCompat="@drawable/iphone_14_pro" />
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="26dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="228dp"
+                    android:layout_marginBottom="104dp"
+                    android:button="@drawable/selector"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageView7" />
+
+                <TextView
+                    android:id="@+id/textViewIp14Pro"
+                    android:layout_width="120dp"
+                    android:layout_height="24dp"
+                    android:clickable="true"
+                    android:layout_marginStart="92dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginEnd="108dp"
+                    android:layout_marginBottom="260dp"
+                    android:text="Iphone 14 Pro"
+                    android:textColor="#121111"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.185"
+                    app:layout_constraintStart_toEndOf="@+id/textView9"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView6"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginEnd="237dp"
+                    android:layout_marginBottom="37dp"
+                    app:layout_constraintBottom_toTopOf="@+id/textViewIp14ProMax"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewIp14Pro"
+                    app:srcCompat="@drawable/iphone_14_pro_max" />
+
+                <TextView
+                    android:id="@+id/textViewIp14ProMax"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginEnd="304dp"
+                    android:layout_marginBottom="40dp"
+                    android:text="Iphone 14 Pro Max"
+                    android:textColor="#171515"
+                    android:textSize="16sp"
+                    android:clickable="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.441"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView7"
+                    tools:ignore="MissingConstraints" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
