@@ -20,8 +20,8 @@
 
                 <CheckBox
                     android:id="@+id/checkBox7"
-                    android:layout_width="20dp"
-                    android:layout_height="40dp"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
                     android:layout_marginStart="120dp"
                     android:layout_marginBottom="308dp"
                     android:button="@drawable/selector"
@@ -30,8 +30,8 @@
 
                 <CheckBox
                     android:id="@+id/checkBox9"
-                    android:layout_width="26dp"
-                    android:layout_height="45dp"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
                     android:layout_marginStart="2dp"
                     android:layout_marginEnd="17dp"
                     android:layout_marginBottom="264dp"
@@ -43,8 +43,8 @@
 
                 <CheckBox
                     android:id="@+id/checkBox10"
-                    android:layout_width="26dp"
-                    android:layout_height="45dp"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
                     android:layout_marginStart="2dp"
                     android:layout_marginEnd="216dp"
                     android:layout_marginBottom="156dp"
@@ -81,12 +81,13 @@
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView5"
-                    app:srcCompat="@drawable/oppo_find_x3" />
+                    app:srcCompat="@drawable/oppo_find_x3"
+                    tools:ignore="SpeakableTextPresentCheck" />
 
                 <TextView
                     android:id="@+id/textViewX3"
                     android:layout_width="101dp"
-                    android:layout_height="18dp"
+                    android:layout_height="48dp"
                     android:layout_marginStart="36dp"
                     android:layout_marginTop="9dp"
                     android:layout_marginEnd="297dp"
@@ -116,12 +117,13 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/imageView5"
                     app:layout_constraintTop_toBottomOf="@+id/textView5"
-                    app:srcCompat="@drawable/oppo_find_x5" />
+                    app:srcCompat="@drawable/oppo_find_x5"
+                    tools:ignore="SpeakableTextPresentCheck" />
 
                 <TextView
                     android:id="@+id/textViewFindX5"
                     android:layout_width="169dp"
-                    android:layout_height="25dp"
+                    android:layout_height="48dp"
                     android:layout_marginStart="92dp"
                     android:layout_marginTop="9dp"
                     android:layout_marginEnd="36dp"
@@ -152,7 +154,8 @@
                     app:layout_constraintHorizontal_bias="0.25"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView9"
-                    app:srcCompat="@drawable/oppo_find_x5" />
+                    app:srcCompat="@drawable/oppo_find_x5"
+                    tools:ignore="SpeakableTextPresentCheck" />
 
                 <TextView
                     android:id="@+id/textViewX5Pro"
@@ -162,6 +165,7 @@
                     android:layout_marginEnd="304dp"
                     android:layout_marginBottom="64dp"
                     android:clickable="true"
+                    android:minHeight="48dp"
                     android:text="Oppo Find X5 Pro"
                     android:textColor="#171515"
                     android:textSize="16sp"
