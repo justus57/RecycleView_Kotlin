@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 
 class Google_pixel : AppCompatActivity() {
@@ -15,6 +16,7 @@ class Google_pixel : AppCompatActivity() {
         val Samsung_S22 = findViewById<TextView>(R.id.textViewGp)
         val Samsung_S22_ultra= findViewById<TextView>(R.id.textViewGp6Pro)
         val Samsung_z= findViewById<TextView>(R.id.textViewGp6A)
+        val button2= findViewById<Button>(R.id.button2)
         Samsung_z.setOnClickListener{
             val bundle = Bundle()
             bundle.putString("PhoneName", "Google Pixel")
@@ -38,6 +40,13 @@ class Google_pixel : AppCompatActivity() {
             bundle.putString("PhoneName", "Google Pixel")
             bundle.putString("Phone_Model", "Google Pixel")
             val intent = Intent(this, storageColor::class.java)
+            intent.putExtras(bundle)
+            startActivity(intent)
+        }
+        button2.setOnClickListener {
+            val bundle = Bundle()
+            bundle.putString("PhoneName", "Oppo")
+            val intent = Intent(this, MainActivity::class.java)
             intent.putExtras(bundle)
             startActivity(intent)
         }

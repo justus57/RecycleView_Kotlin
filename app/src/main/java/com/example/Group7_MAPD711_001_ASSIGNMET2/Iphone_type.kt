@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 
 class Iphone_type : AppCompatActivity() {
@@ -15,6 +16,7 @@ class Iphone_type : AppCompatActivity() {
         val Samsung_S22 = findViewById<TextView>(R.id.textViewIp14)
         val Samsung_S22_ultra= findViewById<TextView>(R.id.textViewIp14Pro)
         val Samsung_z= findViewById<TextView>(R.id.textViewIp14ProMax)
+        val button2= findViewById<Button>(R.id.button2)
         Samsung_z.setOnClickListener{
             val bundle = Bundle()
             bundle.putString("PhoneName", "Apple")

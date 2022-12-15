@@ -47,7 +47,7 @@ class Oppo_type : AppCompatActivity() {
         button2.setOnClickListener {
             val bundle = Bundle()
             bundle.putString("PhoneName", "Oppo")
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, MapsActivity::class.java)
             intent.putExtras(bundle)
             startActivity(intent)
         }

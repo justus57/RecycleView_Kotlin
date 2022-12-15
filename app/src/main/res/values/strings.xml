@@ -32,4 +32,6 @@
         <item>Gold</item>
     </string-array>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="API_KEY">AIzaSyBR2U0QS7lYJaiZnOPia9Suwgt6TkZ28ms</string>
+
 </resources>
